@@ -107,3 +107,25 @@ div#tableRow{
   width: 400px;
   height: 108px;
 }
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
+}
+#coupon{
+  position: fixed;
+  top: 350px;
+  left:-250px;
+  transition: 1s;
+
+}
+#coupon a, img{
+    border: none;
+
+}
+#coupon:hover{
+  position: fixed;
+  top: 350px;
+  transform: translate(250px);
+}
+
